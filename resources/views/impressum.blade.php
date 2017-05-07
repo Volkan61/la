@@ -1,5 +1,3 @@
-XHTML
-
 @extends('app')
 
 @section('content')
