@@ -13,6 +13,14 @@ class PageController
 {
     public function index()
     {
+
+
+
+
+
+
+
+
         return view('welcome');
     }
 

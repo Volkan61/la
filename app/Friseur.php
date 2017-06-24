@@ -4,15 +4,15 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class User extends Model 
+class Friseur extends Model 
 {
 
-    protected $table = 'users';
+    protected $table = 'friseurs';
     public $timestamps = true;
 
     public function termins()
     {
-        return $this->hasMany('App\Termin', 'user_id');
+        return $this->hasMany('App\Termin', 'friseur_id');
     }
 
 }
